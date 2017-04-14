@@ -45,6 +45,12 @@
     <Project Include="System.Net.WebSockets.Client\pkg\System.Net.WebSockets.Client.builds">
       <AdditionalProperties>$(AdditionalProperties)</AdditionalProperties>
     </Project>
+    <Project Include="Native\pkg\runtime.native.System.Security.Cryptography\runtime.native.System.Security.Cryptography.builds">
+      <AdditionalProperties>$(AdditionalProperties)</AdditionalProperties>
+    </Project>
+    <Project Include="Native\pkg\runtime.native.System.Security.Cryptography.OpenSsl\runtime.native.System.Security.Cryptography.OpenSsl.builds">
+      <AdditionalProperties>$(AdditionalProperties)</AdditionalProperties>
+    </Project>
     <Project Include="System.ValueTuple\pkg\System.ValueTuple.builds">
       <AdditionalProperties>$(AdditionalProperties)</AdditionalProperties>
     </Project>
